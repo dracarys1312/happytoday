@@ -1,0 +1,44 @@
+{
+    "name": "happytoday",
+    "version": "1.0.0",
+    "description": "A Web App made by React Flux",
+    "main": "webpack.config.js",
+    "scripts": {
+        "dev": "webpack-dev-server --content-base src --inline --hot",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dracarys1312/happytoday.git"
+    },
+    "keywords": [
+        "react",
+        "flux"
+    ],
+    "author": "Pt",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dracarys1312/happytoday/issues"
+    },
+    "homepage": "https://github.com/dracarys1312/happytoday#readme",
+    "dependencies": {
+        "axios": "^0.14.0",
+        "babel-core": "^6.17.0",
+        "babel-loader": "^6.2.5",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-react-html-attrs": "^2.0.0",
+        "babel-plugin-transform-class-properties": "^6.16.0",
+        "babel-plugin-transform-decorators-legacy": "^1.3.4",
+        "babel-preset-es2015": "^6.3.13",
+        "babel-preset-react": "^6.3.13",
+        "babel-preset-stage-0": "^6.3.13",
+        "flux": "^2.1.1",
+        "history": "^1.17.0",
+        "react": "^15.0.2",
+        "react-dom": "^15.0.2",
+        "react-notification-system": "^0.2.10",
+        "react-router": "^2.5.1",
+        "webpack": "^1.12.9",
+        "webpack-dev-server": "^1.14.1"
+    }
+}
